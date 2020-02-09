@@ -1,38 +1,37 @@
+
 .App {
   text-align: center;
+  background-image: url(../src/assets/photo-tree.jpg);
+  background-position: center ;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: rgb(253, 192, 230);
+  display:flex;
+  width: 100vw;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.QuotesList-Header {
+ margin-right: 5rem;
+ margin-left: 5rem;
+ padding: 1rem;
+ margin-bottom: 0;
+ border-radius: 50px
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.QuotesList-Quotes {
   display: flex;
-  flex-direction: column;
+  align-content: left;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+ padding: 1rem;
+ margin-top: 2rem;
+ border-radius: 50px;
+ height: 30vh;
+ width: 50vw;
+ }
+ 
+ .QuotesList-Wrapper {
+   text-align: center;
+   margin: 2rem;
+   border-radius: 50px
+ }
