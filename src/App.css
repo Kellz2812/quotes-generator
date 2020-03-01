@@ -7,7 +7,7 @@
   align-content: center;
   background-image: url(../src/assets/photo-tree.jpg);
   background-position: center;
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-color: rgb(253, 192, 230);
   width: 100vw;
@@ -16,27 +16,21 @@
 }
 
 .QuotesList-Header {
- margin-right: 5rem;
- margin-left: 5rem;
- margin-bottom: 0;
+ margin: 2rem;
  border-radius: 50px;
- height: 20vh;
 }
 
 .QuotesList-Quotes {
+  margin-right: 5rem;
+  padding-right: 5rem;
   display: flex;
-  align-content: flex-start;
-  align-items: center;
- height: 10vh;
- text-align: center;
+ /* text-align: center; */
  }
 
  .QuotesList-Author {
   display: flex;
-  align-content: center;
-  align-items: center;
- text-align: center;
  color: rgb(138, 2, 66);
+ margin:3rem
  }
  .QuotesList-Wrapper {
    text-align: center;
